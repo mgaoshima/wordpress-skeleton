@@ -17,7 +17,12 @@ $ vagrant plugin install vagrant-hostsupdater
 $ git clone git@github.com:mgaoshima/wordpress-skeleton.git
 $ cd wordpress-skeleton
 $ rm -rf .git && git init && git add -A && git c -m init
-$ vagrant up
+```
+
+`site.yml`を適宜編集
+
+```
+$ vagrant up      # => http://wordpress-skeleton.local
 ```
 
 hostsを書き換えるために、途中でパースワード入力があります。
