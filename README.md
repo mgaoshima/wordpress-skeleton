@@ -3,11 +3,21 @@
 VCCWをベースとしたWordPressサイトのスケルトン
 
 
+## Vagrantの準備
+
+```
+$ brew cask install virtualbox vagrant
+$ vagrant plugin install vagrant-hostsupdater
+```
+
+
 ## VMの初期化
 
 ```
 $ vagrant up
 ```
+
+hostsを書き換えるために、途中でパースワード入力があります。
 
 
 ## 初期化時に起こること
@@ -60,3 +70,8 @@ $ ./db_push.sh
 $ vagrant global-status           # 動いているVMを確認
 $ vagrant global-status --prune   # ルートディレクトリが存在しないVMを破棄
 ```
+
+
+## とりあえず適当なテスト用データを入れたいとき
+
+[テーマユニットテストデータ（日本語版）](https://github.com/jawordpressorg/theme-test-data-ja)
