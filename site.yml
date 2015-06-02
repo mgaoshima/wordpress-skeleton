@@ -1,0 +1,27 @@
+# encoding: utf-8
+# vim: ft=ruby expandtab shiftwidth=2 tabstop=2
+
+#
+# WordPress Settings
+#
+version: latest
+lang: ja
+title: wordpress-skeleton
+multisite: false
+rewrite_structure: '/archives/%post_id%/'
+
+#
+# WordPress Path
+#
+document_root: '/var/www'
+wp_home: ''     # Path to the WP_HOME like "wp"
+wp_siteurl: 'wp'  # Path to the WP_SITEURL like "wp"
+
+#
+# WordPress Default Plugins
+# Plugin's slug or url to the plugin's slug.
+#
+plugins:
+  - dynamic-hostname
+  - advanced-custom-fields
+  - wp-multibyte-patch
