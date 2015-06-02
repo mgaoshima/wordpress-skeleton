@@ -74,6 +74,7 @@ $ vagrant global-status           # 動いているVMを確認
 $ vagrant global-status --prune   # ルートディレクトリが存在しないVMを破棄
 ```
 
+Vagrantの詳しい使い方はこちら => [Vagrantドキュメント](http://lab.raqda.com/vagrant/)
 
 ## とりあえず適当なテスト用データを入れたいとき
 
