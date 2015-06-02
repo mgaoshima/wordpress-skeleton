@@ -1,0 +1,2 @@
+# wordpress-skeleton
+VCCWをベースとしたWordPressサイトのスケルトン
