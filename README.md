@@ -14,15 +14,15 @@ $ vagrant plugin install vagrant-hostsupdater
 ## VMの初期化
 
 ```
-$ git clone git@github.com:mgaoshima/wordpress-skeleton.git
-$ cd wordpress-skeleton
+$ git clone git@github.com:mgaoshima/wordpress-skeleton.git yourSiteName
+$ cd yourSiteName
 $ rm -rf .git && git init && git add -A && git c -m init
 ```
 
 `site.yml`を適宜編集
 
 ```
-$ vagrant up      # => http://wordpress-skeleton.local
+$ vagrant up      # => `site.yml`内の`hostname`のURLを開く
 ```
 
 hostsを書き換えるために、途中でパースワード入力があります。
