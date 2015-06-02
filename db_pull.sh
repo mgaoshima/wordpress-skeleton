@@ -2,5 +2,5 @@
 
 set -ex
 
-vagrant ssh -c "wp --path=/var/www/wordpress db export /vagrant/import.sql"
+vagrant ssh -c "/usr/local/bin/wp --path=/var/www/wp db export /vagrant/sqldump.sql"
 

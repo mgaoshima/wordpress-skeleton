@@ -2,11 +2,23 @@
 # vim: ft=ruby expandtab shiftwidth=2 tabstop=2
 
 #
+# Network Settings
+#
+hostname: wordpress-skeleton.local
+sync_folder: 'www'
+
+#
+# Virtual Machine Settings
+#
+memory: 2048
+cpus: 2
+
+#
 # WordPress Settings
 #
 version: latest
 lang: ja
-title: wordpress-skeleton
+title: 'サイトタイトル'
 multisite: false
 rewrite_structure: '/archives/%post_id%/'
 
@@ -22,6 +34,16 @@ wp_siteurl: 'wp'  # Path to the WP_SITEURL like "wp"
 # Plugin's slug or url to the plugin's slug.
 #
 plugins:
-  - dynamic-hostname
-  - advanced-custom-fields
-  - wp-multibyte-patch
+
+#
+# WordPress Options
+#
+options:
+  blogdescription: 'サイトのディスクリプション'
+  date_format_custom: 'Y.m.d'
+  time_format_custom: 'H:i'
+  use_smilies: false
+  default_pingback_flag: false
+  default_ping_status: false
+  default_comment_status: false
+
