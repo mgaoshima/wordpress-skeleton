@@ -7,5 +7,6 @@ Vagrantfile.theme-review
 provision/packaging.sh
 spec
 www
+Movefile
 
 !*.sql
