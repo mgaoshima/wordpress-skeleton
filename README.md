@@ -14,6 +14,9 @@ $ vagrant plugin install vagrant-hostsupdater
 ## VMの初期化
 
 ```
+$ git clone git@github.com:mgaoshima/wordpress-skeleton.git
+$ cd wordpress-skeleton
+$ rm -rf .git && git init && git add -A && git c -m init
 $ vagrant up
 ```
 
