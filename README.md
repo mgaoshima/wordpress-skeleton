@@ -16,7 +16,7 @@ $ vagrant plugin install vagrant-hostsupdater
 ```
 $ git clone git@github.com:mgaoshima/wordpress-skeleton.git yourSiteName
 $ cd yourSiteName
-$ rm -rf .git && git init && git add -A && git c -m init
+$ rm -rf .git && git init && git add -A && git commit -m init
 ```
 
 `site.yml`を適宜編集
