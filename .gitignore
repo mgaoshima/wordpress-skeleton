@@ -6,5 +6,6 @@ Vagrantfile.sample
 Vagrantfile.theme-review
 provision/packaging.sh
 spec
+www
 
-!/*.sql
+!*.sql
