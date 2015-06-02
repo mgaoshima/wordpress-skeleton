@@ -22,10 +22,10 @@ $ rm -rf .git && git init && git add -A && git c -m init
 `site.yml`を適宜編集
 
 ```
-$ vagrant up      # => `site.yml`内の`hostname`のURLを開く
+$ vagrant up      # => site.yml 内の hostname のURLを開く
 ```
 
-hostsを書き換えるために、途中でパースワード入力があります。
+hostsを書き換えるために、途中でパスワード入力があります。
 
 
 ## 初期化時に起こること
